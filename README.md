@@ -21,28 +21,6 @@ This project implements a **Student Depression Classifier** using the **Naive Ba
 
 ---
 
-## 📁 Dataset
-
-The dataset consists of the following columns:
-
-| Column                       | Description                                             |
-|------------------------------|---------------------------------------------------------|
-| Age                          | Age of the student                                     |
-| Academic Pressure            | Scale of academic pressure                             |
-| Work Pressure                | Scale of work pressure                                 |
-| CGPA                         | Cumulative Grade Point Average                          |
-| Study Satisfaction           | Study satisfaction on a scale                           |
-| Job Satisfaction             | Job satisfaction on a scale                             |
-| Sleep Duration               | Duration of sleep (in hours)                           |
-| Dietary Habits               | Dietary habits (Healthy, Moderate, Unhealthy)           |
-| Have you ever had suicidal thoughts? | Indicates if the student has ever had suicidal thoughts |
-| Work/Study Hours             | Work/study hours                                        |
-| Financial Stress             | Financial stress (levels)                               |
-| Family History of Mental Illness | Whether the student has a family history of mental illness |
-| Depression                   | Target variable indicating whether the student is depressed (1) or not (0) |
-
----
-
 ## 📦 Dependencies
 pip install pandas scikit-learn matplotlib seaborn
 
@@ -56,13 +34,15 @@ True Positive (TP): 4275 (Depressed and predicted as Depressed)
 
 True Negative (TN): 2469 (Non-depressed and predicted as Non-depressed)
 
+False Negative (FN): 566 (Depressed but predicted as Non-depressed)
+
 False Positive (FP): 1061 (Non-depressed but predicted as Depressed)
 
-False Negative (FN): 566 (Depressed but predicted as Non-depressed)
 ---
 
 ## 🔥 Visualization
 The heatmap below represents the Confusion Matrix, providing a visual representation of the model's performance:
+![Heatmap](https://github.com/user-attachments/assets/0b9a3c21-c93a-4053-810e-17a9c2262890)
 
 ---
 
