@@ -48,7 +48,8 @@ The heatmap below represents the Confusion Matrix, providing a visual representa
 
 ## 📌 Conclusion
 This project demonstrates how to predict whether a student is depressed based on several academic and personal factors. The Naive Bayes classifier gives us a simple yet effective solution for this classification problem. The confusion matrix and accuracy provide insight into the model’s performance, and it can be a useful tool for educational institutions aiming to support student well-being.
----
+
+
 ## 📃 License
 
 This project is open-source and available under the MIT License. You are free to use, modify.
