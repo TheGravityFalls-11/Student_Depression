@@ -52,4 +52,4 @@ This project demonstrates how to predict whether a student is depressed based on
 
 ## 📃 License
 
-This project is open-source and available under the MIT License. You are free to use, modify.
+This project is open-source and available under the MIT License. You are free to use and modify.
